@@ -1,0 +1,3 @@
+[submodule "kryonet"]
+	path = kryonet
+	url = https://github.com/ShahBinoy/kryonet.git
