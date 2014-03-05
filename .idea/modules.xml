@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kryonet/kryonet.iml" filepath="$PROJECT_DIR$/kryonet/kryonet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kryonet/kryonet.iml" filepath="$PROJECT_DIR$/kryonet/kryonet.iml" />
       <module fileurl="file://$PROJECT_DIR$/versus-rt-server.iml" filepath="$PROJECT_DIR$/versus-rt-server.iml" />
     </modules>
   </component>
