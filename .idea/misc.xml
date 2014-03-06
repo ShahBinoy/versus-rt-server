@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
+    <type id="android" />
   </component>
   <component name="IdProvider" IDEtalkID="D5CEFB5221D1BAB27D043DEF30BAF7CE" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
