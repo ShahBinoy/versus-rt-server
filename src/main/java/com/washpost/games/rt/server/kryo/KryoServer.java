@@ -20,8 +20,8 @@ import java.util.List;
  * Created by shahb on 3/5/14.
  */
 public class KryoServer {
-    private Server server = null;
-    Roster activeRoster;
+    protected Server server = null;
+    protected Roster activeRoster;
 
 
     public KryoServer() {
@@ -38,39 +38,8 @@ public class KryoServer {
 
         KryoNetwork.registerTypes(server);
 
-        server.addListener(new Listener() {
-            public void received(Connection connection, Object object) {
-                System.out.println("Got New Connection");
-
-                if (object instanceof UserHeartBeat) {
-                    UserHeartBeat request = (UserHeartBeat) object;
-                    System.out.println("HeartBeat Requested for " + request.lastHeartbeat.text);
-
-                    activeRoster.enqueue(request.user);
-                    HeartBeatResponse response = new HeartBeatResponse();
-                    response.text = "Welcome";
-                    connection.sendTCP(response);
-                }
-                if (object instanceof EnrollmentRequest) {
-                    EnrollmentRequest request = (EnrollmentRequest) object;
-                    System.out.println("Enrollment Requested for " + request.user.uuId);
-
-                    if (!activeRoster.isAlive(request.user)) {
-                        activeRoster.enqueue(request.user);
-                    }
-                    EnrollmentResponse response = new EnrollmentResponse("Enrolled Successfully at " + new Date().toString());
-                    connection.sendTCP(response);
-                }
-                if (object instanceof RosterRequest) {
-                    RosterRequest request = (RosterRequest) object;
-                    System.out.println("Roster Requested by " + request.user.uuId);
-                    List<User> onlineUsers = activeRoster.getOnlineUsers();
-                    RosterResponse response = new RosterResponse();
-                    response.onlineOnes = onlineUsers;
-                    connection.sendTCP(response);
-                }
-            }
-        });
+        Listener listener = buildListener();
+        server.addListener(listener);
         try {
             server.bind(KryoNetwork.TCP_PORT);
         } catch (IOException e) {
@@ -78,6 +47,42 @@ public class KryoServer {
         }
         server.start();
         return server;
+    }
+
+    protected Listener buildListener() {
+        return new Listener() {
+                public void received(Connection connection, Object object) {
+                    System.out.println("Got New Connection");
+
+                    if (object instanceof UserHeartBeat) {
+                        UserHeartBeat request = (UserHeartBeat) object;
+                        System.out.println("HeartBeat Requested for " + request.lastHeartbeat.text);
+
+                        activeRoster.enqueue(request.user);
+                        HeartBeatResponse response = new HeartBeatResponse();
+                        response.text = "Welcome";
+                        connection.sendTCP(response);
+                    }
+                    if (object instanceof EnrollmentRequest) {
+                        EnrollmentRequest request = (EnrollmentRequest) object;
+                        System.out.println("Enrollment Requested for " + request.user.uuId);
+
+                        if (!activeRoster.isAlive(request.user)) {
+                            activeRoster.enqueue(request.user);
+                        }
+                        EnrollmentResponse response = new EnrollmentResponse("Enrolled Successfully at " + new Date().toString());
+                        connection.sendTCP(response);
+                    }
+                    if (object instanceof RosterRequest) {
+                        RosterRequest request = (RosterRequest) object;
+                        System.out.println("Roster Requested by " + request.user.uuId);
+                        List<User> onlineUsers = activeRoster.getOnlineUsers();
+                        RosterResponse response = new RosterResponse();
+                        response.onlineOnes = onlineUsers;
+                        connection.sendTCP(response);
+                    }
+                }
+            };
     }
 
     public void shutdown() {

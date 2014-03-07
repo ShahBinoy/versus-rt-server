@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * Created by shahb on 3/6/14.
  */
-public class KryoClient extends Listener {
+public class KryoClient{
     public Client client;
     public RosterResponse currentRoster;
     public User           currentUser;
@@ -23,7 +23,17 @@ public class KryoClient extends Listener {
         client = new Client();
         client.start();
         KryoNetwork.registerTypes(client);
-        client.addListener(new Listener(){
+        client.addListener(buildListener());
+        try {
+            client.connect(5000, KryoNetwork.HOST, KryoNetwork.TCP_PORT);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        enrollInRoster(newUsr,false);
+    }
+
+    protected Listener buildListener() {
+        return new Listener(){
             @Override
             public void received(Connection connection, Object object) {
                 if (object instanceof RosterResponse) {
@@ -41,13 +51,7 @@ public class KryoClient extends Listener {
             public void idle(Connection connection) {
                 super.idle(connection);
             }
-        });
-        try {
-            client.connect(5000, KryoNetwork.HOST, KryoNetwork.TCP_PORT);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        enrollInRoster(newUsr,false);
+        };
     }
 
     public void requestRoster(){

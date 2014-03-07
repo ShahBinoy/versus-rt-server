@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc5b9edd-aa47-4a6d-b402-7e24c3b1213b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/request/EnrollmentRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/response/EnrollmentResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoNetwork.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/OnlineRoster.java" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/Roster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoJSONServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/washpost/games/rt/server/OnlineRosterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/washpost/games/rt/server/OnlineRosterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="versus-rt-server.iws" />
@@ -69,7 +61,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java" line="64" class="com.washpost.games.rt.server.kryo.KryoServer$1" package="com.washpost.games.rt.server.kryo">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" line="61" class="com.washpost.games.rt.server.kryo.KryoClient$2" package="com.washpost.games.rt.server.kryo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -84,22 +76,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" line="30" class="com.washpost.games.rt.server.kryo.KryoClient$1" package="com.washpost.games.rt.server.kryo">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" line="57" class="com.washpost.games.rt.server.kryo.KryoClient$2" package="com.washpost.games.rt.server.kryo">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java" line="54" class="com.washpost.games.rt.server.kryo.KryoServer$1" package="com.washpost.games.rt.server.kryo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -127,23 +104,23 @@
       <file leaf-file-name="KryoServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="3110" selection-end="3110" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="1410">
+            <state line="38" column="29" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1485">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#KryoServer#0" expanded="true" />
-                <element signature="e#1179#2856#0" expanded="true" />
-                <element signature="e#2845#2846#0" expanded="true" />
+                <element signature="e#1495#3288#0" expanded="true" />
+                <element signature="e#3273#3274#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Client.java">
+      <file leaf-file-name="KryoJSONServer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoJSONServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="16" selection-start="8446" selection-end="8446" vertical-scroll-proportion="-2.88" vertical-offset="2391" max-vertical-offset="6945">
+            <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.35315984" vertical-offset="0" max-vertical-offset="807">
               <folding>
-                <element signature="docComment;method#connect#3;class#Client#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,17 +151,32 @@
       <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="384" column="16" selection-start="14153" selection-end="14153" vertical-scroll-proportion="0.0" vertical-offset="4977" max-vertical-offset="8130">
-              <folding />
+            <state line="92" column="0" selection-start="3975" selection-end="3975" vertical-scroll-proportion="-2.66" vertical-offset="947" max-vertical-offset="8325">
+              <folding>
+                <element signature="docComment;method#Server#0;class#Server#0" expanded="true" />
+                <element signature="docComment;method#Server#1;class#Server#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Connection.java">
+      <file leaf-file-name="EndPoint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/EndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="0" selection-start="9377" selection-end="9377" vertical-scroll-proportion="0.0" vertical-offset="2946" max-vertical-offset="3990">
-              <folding />
+            <state line="9" column="17" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#getSerialization#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#addListener#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#run#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#start#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#stop#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#close#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#update#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#getUpdateThread#0;class#EndPoint#0" expanded="false" />
+                <element signature="docComment;method#getKryo#0;class#EndPoint#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -227,12 +219,24 @@
       <file leaf-file-name="JsonTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kryonet/test/com/esotericsoftware/kryonet/JsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="69" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
+            <state line="39" column="41" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505">
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#1440#1983#0" expanded="false" />
-                <element signature="e#1978#1979#0" expanded="false" />
-                <element signature="class#Data#0;class#JsonTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KryoNetTestCase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kryonet/test/com/esotericsoftware/kryonet/KryoNetTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="16" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="1290">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1108#1243#0" expanded="false" />
+                <element signature="e#1238#1239#0" expanded="false" />
+                <element signature="e#1551#1639#0" expanded="false" />
+                <element signature="e#1634#1635#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -256,10 +260,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnlineRosterTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OnlineRosterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/washpost/games/rt/server/OnlineRosterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="645">
+            <state line="38" column="31" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -269,7 +273,62 @@
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="540" column="23" selection-start="20144" selection-end="20144" vertical-scroll-proportion="0.0" vertical-offset="3533" max-vertical-offset="6180">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#Assert#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertTrue#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertTrue#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertFalse#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertFalse#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#fail#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#fail#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotEquals#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotEquals#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotEquals#2;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotEquals#3;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotEquals#4;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotEquals#5;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#2;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#3;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#4;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#5;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#6;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#7;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#8;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#9;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#10;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#11;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#12;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#13;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#14;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertArrayEquals#15;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#internalArrayEquals#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#2;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#3;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#4;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#5;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#6;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#7;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#8;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#9;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotNull#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotNull#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNull#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNull#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertSame#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertSame#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotSame#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertNotSame#1;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#10;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertEquals#11;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertThat#0;class#Assert#0" expanded="false" />
+                <element signature="docComment;method#assertThat#1;class#Assert#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -290,12 +349,12 @@
       <file leaf-file-name="KryoClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="11" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1155">
+            <state line="32" column="5" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1215">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#KryoClient#0" expanded="true" />
-                <element signature="e#1696#1913#0" expanded="true" />
-                <element signature="e#1902#1903#0" expanded="true" />
+                <element signature="e#1758#1975#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -621,10 +680,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/request/EnrollmentRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/response/EnrollmentResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoNetwork.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/Roster.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/washpost/games/rt/server/OnlineRosterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoJSONServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/washpost/games/rt/server/StringDataTest.java" />
       </list>
     </option>
   </component>
@@ -877,6 +938,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="nio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="versus-rt-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="versus-rt-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="versus-rt-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="awt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1023,27 +1166,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="response" />
+              <option name="myItemId" value="kryonet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1057,37 +1180,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="kryonet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="versus-rt-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="versus-rt-server" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1114,54 +1211,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kryonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="versus-rt-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="versus-rt-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kryonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="versus-rt-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="versus-rt-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kryonet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1188,7 +1237,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="extract.method.default.visibility" value="protected" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
@@ -1204,7 +1253,7 @@
       <recent name="com.washpost.games.rt.common" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OnlineRosterTest">
+  <component name="RunManager" selected="JUnit.StringDataTest.testStringData">
     <configuration default="false" name="KryoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1233,84 +1282,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="OnlineRosterTest.testUserEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.washpost.games.rt.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="versus-rt-server" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.washpost.games.rt.server" />
-      <option name="MAIN_CLASS_NAME" value="com.washpost.games.rt.server.OnlineRosterTest" />
-      <option name="METHOD_NAME" value="testUserEnqueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.esotericsoftware.kryonet.examples.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.esotericsoftware.kryonet.examples.chat.ChatClient" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kryonet" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.esotericsoftware.kryonet.examples.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.esotericsoftware.kryonet.examples.chat.ChatServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kryonet" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="OnlineRosterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1336,6 +1307,96 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonTest.testJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.esotericsoftware.kryonet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kryonet" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.esotericsoftware.kryonet" />
+      <option name="MAIN_CLASS_NAME" value="com.esotericsoftware.kryonet.JsonTest" />
+      <option name="METHOD_NAME" value="testJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringDataTest.testStringData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.washpost.games.rt.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="versus-rt-server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.washpost.games.rt.server" />
+      <option name="MAIN_CLASS_NAME" value="com.washpost.games.rt.server.StringDataTest" />
+      <option name="METHOD_NAME" value="testStringData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.washpost.games.rt.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="versus-rt-server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.washpost.games.rt.server" />
+      <option name="MAIN_CLASS_NAME" value="com.washpost.games.rt.server.StringDataTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1478,18 +1539,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.KryoServer" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OnlineRosterTest.testUserEnqueue" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ChatClient" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ChatServer" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OnlineRosterTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OnlineRosterTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JsonTest.testJson" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringDataTest.testStringData" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringDataTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OnlineRosterTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringDataTest.testStringData" />
         <item index="1" class="java.lang.String" itemvalue="Application.KryoServer" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OnlineRosterTest.testUserEnqueue" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ChatClient" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ChatServer" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringDataTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JsonTest.testJson" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OnlineRosterTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1498,8 +1559,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1509,44 +1585,49 @@
       <workItem from="1393997079598" duration="568000" />
       <workItem from="1394065379417" duration="88000" />
       <workItem from="1394065507131" duration="1654000" />
-      <workItem from="1394073666502" duration="17857000" />
+      <workItem from="1394073666502" duration="23954000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactored to Server/Client">
+      <created>1394145856539</created>
+      <updated>1394145856539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20167000" />
+    <option name="totallyTimeSpent" value="26264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="991" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5774487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32801822" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1561,6 +1642,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Refactored to Server/Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored to Server/Client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1570,78 +1653,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/response/RosterResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1200">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#KryoServer#0" expanded="true" />
-            <element signature="e#1179#2856#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/washpost/games/rt/server/OnlineRosterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/current/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/Roster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="e#280#303#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/current/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/request/HeartBeat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/UserHeartBeat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/common/request/RosterRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -1662,8 +1673,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#KryoServer#0" expanded="true" />
-            <element signature="e#1179#2856#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
+            <element signature="e#1495#3288#0" expanded="true" />
+            <element signature="e#3273#3274#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1784,18 +1795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kryonet/test/com/esotericsoftware/kryonet/JsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="69" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1440#1983#0" expanded="false" />
-            <element signature="e#1978#1979#0" expanded="false" />
-            <element signature="class#Data#0;class#JsonTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/kryonet/lib/jsonbeans-0.5.jar!/com/esotericsoftware/jsonbeans/Json.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="16" selection-start="4772" selection-end="4772" vertical-scroll-proportion="-10.88" vertical-offset="1048" max-vertical-offset="2655">
@@ -1887,13 +1886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="0" selection-start="9377" selection-end="9377" vertical-scroll-proportion="0.0" vertical-offset="2946" max-vertical-offset="3990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/current/src.zip!/java/awt/EventQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="13" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14850">
@@ -1921,19 +1913,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="16" selection-start="8446" selection-end="8446" vertical-scroll-proportion="-2.88" vertical-offset="2391" max-vertical-offset="6945">
-          <folding>
-            <element signature="docComment;method#connect#3;class#Client#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="540" column="23" selection-start="20144" selection-end="20144" vertical-scroll-proportion="0.0" vertical-offset="3533" max-vertical-offset="6180">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#Assert#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertTrue#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertTrue#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertFalse#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertFalse#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#fail#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#fail#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotEquals#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotEquals#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotEquals#2;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotEquals#3;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotEquals#4;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotEquals#5;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#2;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#3;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#4;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#5;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#6;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#7;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#8;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#9;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#10;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#11;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#12;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#13;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#14;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertArrayEquals#15;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#internalArrayEquals#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#2;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#3;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#4;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#5;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#6;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#7;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#8;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#9;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotNull#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotNull#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNull#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNull#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertSame#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertSame#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotSame#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertNotSame#1;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#10;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertEquals#11;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertThat#0;class#Assert#0" expanded="false" />
+            <element signature="docComment;method#assertThat#1;class#Assert#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1959,41 +1997,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Server.java">
+    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/EndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="384" column="16" selection-start="14153" selection-end="14153" vertical-scroll-proportion="0.0" vertical-offset="4977" max-vertical-offset="8130">
-          <folding />
+        <state line="9" column="17" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#getSerialization#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#addListener#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#stop#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#update#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#getUpdateThread#0;class#EndPoint#0" expanded="false" />
+            <element signature="docComment;method#getKryo#0;class#EndPoint#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java">
+    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="3110" selection-end="3110" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="1410">
+        <state line="92" column="0" selection-start="3975" selection-end="3975" vertical-scroll-proportion="-2.66" vertical-offset="947" max-vertical-offset="8325">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#KryoServer#0" expanded="true" />
-            <element signature="e#1179#2856#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
+            <element signature="docComment;method#Server#0;class#Server#0" expanded="true" />
+            <element signature="docComment;method#Server#1;class#Server#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1155">
+        <state line="32" column="5" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1215">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#KryoClient#0" expanded="true" />
-            <element signature="e#1696#1913#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#1758#1975#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kryonet/test/com/esotericsoftware/kryonet/KryoNetTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="16" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="1290">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1108#1243#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1551#1639#0" expanded="false" />
+            <element signature="e#1634#1635#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kryonet/test/com/esotericsoftware/kryonet/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="41" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/current/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="424" column="18" selection-start="18078" selection-end="18078" vertical-scroll-proportion="0.0" vertical-offset="1063" max-vertical-offset="10635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/current/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="0" selection-start="12659" selection-end="12659" vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="11625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/current/src.zip!/java/nio/channels/SelectionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="41" selection-start="788" selection-end="788" vertical-scroll-proportion="0.53753024" vertical-offset="3" max-vertical-offset="2685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/TcpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="15" selection-start="701" selection-end="701" vertical-scroll-proportion="0.33171913" vertical-offset="118" max-vertical-offset="3615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="9" selection-start="741" selection-end="741" vertical-scroll-proportion="0.28857142" vertical-offset="259" max-vertical-offset="4215">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Connection#0" expanded="true" />
+            <element signature="docComment;method#setBufferPositionFix#0;class#Connection#0" expanded="true" />
+            <element signature="docComment;method#setIdleThreshold#0;class#Connection#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kryonet/src/com/esotericsoftware/kryonet/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="21" selection-start="6795" selection-end="6795" vertical-scroll-proportion="0.47311828" vertical-offset="1819" max-vertical-offset="6945">
+          <folding>
+            <element signature="docComment;method#connect#3;class#Client#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/current/src.zip!/java/nio/channels/SocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="430" column="28" selection-start="16634" selection-end="16634" vertical-scroll-proportion="1.0607187" vertical-offset="1079" max-vertical-offset="2505">
+          <folding>
+            <element signature="docComment;method#finishConnect#0;class#SocketChannel#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="29" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0" vertical-offset="623" max-vertical-offset="1485">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#KryoServer#0" expanded="true" />
+            <element signature="e#1495#3288#0" expanded="true" />
+            <element signature="e#3273#3274#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/washpost/games/rt/server/OnlineRosterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="645">
+        <state line="38" column="31" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/washpost/games/rt/server/kryo/KryoJSONServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.35315984" vertical-offset="0" max-vertical-offset="807">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
